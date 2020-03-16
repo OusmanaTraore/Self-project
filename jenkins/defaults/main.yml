@@ -1,0 +1,4 @@
+---
+# defaults file for jenkins
+hosts: localhost
+become: yes
