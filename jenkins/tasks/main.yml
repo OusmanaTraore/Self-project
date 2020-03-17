@@ -40,7 +40,7 @@
   delegate_to: localhost
 
 - name: init password jenkins
-  shell:  cat /var/lib/jenkins/secrets/initialAdminPassword
+  shell: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
   changed_when: false
   register: result
 
