@@ -48,3 +48,4 @@
 - name:  affichage du mot de passe  init  jenkins
   debug:
     var: result.stdout
+
